@@ -30,21 +30,30 @@
 //         return false;
 //     }
 // }
+var field1;
+var field2;
+var field3;
+var field4;
+var dailyProduction = 0;
+var weeklyProduction = 0;
+var monthlyProduction = 0;
+var price = 45;
 
-
-
-
-
-function calculate() {
+function dailyProduction() {
     var field1 = document.getElementById("shedA").value;
     var field2 = document.getElementById("shedB").value;
     var field3 = document.getElementById("shedC").value;
     var field4 = document.getElementById("shedD").value;
 
-    var results = parseFloat(field1) + parseFloat(field2) + parseFloat(field3) + parseFloat(field4);
+    var results = field1 + field2 + field3 + field4;
 
+    if (document.getElementById(field1).value == "") {
+        alert('please field required');
+        return false;
+        else(document.getElementById)
 
-    if (!isNaN(results)) {
-        document.getElementById(sheds).innerHTML = "The total output per day is " + results;
     }
+    if (document.getElementById(field2).value == "") {
+        alert('please field required');
+        return false;
 }
