@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <title>Dairy plant</title>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       <h1>Simple Dairy plan management system.</h1>
+       <h2>Total production for each shed per day.</h2>
+        <form method="post" action="#" onsubmit="return checkforblank">
+            <div id="sheds">  
+            <label for="shedA">Shed A
+               <input type="number" id="shedA" name="ShedA"></label>
+               <br>
+               <br>
+                <label for="shedA">Shed B
+               <input type="number" id="shedB" name="ShedB"></label>
+               <br>
+               <br>
+                <label for="shedA">Shed C
+               <input type="number" id="shedC" name="ShedC"></label>
+               <br>
+               <br>
+                <label for="shedA">Shed D
+               <input type="number" id="shedD" name="ShedD"></label>
+               <br>
+               <br>
+               <button onclick="calculate()">Calculate</button>
+               </div>
+        </form>
+    </body>
+    <script src="js/script.js"></script>
+</html>
+
+
+
+
+
+       <!-- <form method="post" action="#">
+       <div id="form">
+           <div class="input-fields">
+               <label for="shedA">Shed A
+               <input type="number" id="shedA" name="ShedA"></label>
+           </div>
+
+           <br>
+           <br>
+           <br>
+           <div class="input-fields">
+               <label for="shedB">Shed B</label>
+               <input class="number" type="text" id="shedB" name="ShedB">
+           </div>
+           <br>
+           <br>
+           <br>
+           <div class="input-fields">
+               <label for="shedC">Shed C</label>
+               <input class="number" type="text" id="shedC" name="ShedC">
+           </div>
+           <br>
+           <br>
+           <br>
+           <div class="input-fields">
+               <label for="shedD">Shed D</label>
+               <input class="number" type="text" id="shedD" name="shedD">
+           </div>
+           <br>
+           <br>
+           <br>
+           <input class="button" type="button" value="Total production" onclick="sheds">
+           
+           <input class="button" type="button" value="Clear results" onclick="exit">
+            <p id="display"></p>
+       </div>
+       </form> -->
+       
